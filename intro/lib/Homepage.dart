@@ -87,7 +87,7 @@ class _HomepageState extends State<Homepage> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          automaticallyImplyLeading: false,
+          // automaticallyImplyLeading: false,
           title: Text('My Dashboard'),
           elevation: 0.0,
           centerTitle: true,
@@ -212,7 +212,7 @@ class ModalWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return IconButton(
-      icon: Icon(Icons.more_vert),
+      icon: Icon(Icons.info_outline_rounded),
       onPressed: () {
         showModalBottomSheet<void>(
           context: context,

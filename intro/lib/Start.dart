@@ -51,7 +51,7 @@ class _StartState extends State<Start> {
               style: TextStyle(fontSize: 15, color: Colors.black),
             ),
             SizedBox(height: 10),
-            Row(
+            Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
                 ElevatedButton(
@@ -59,27 +59,7 @@ class _StartState extends State<Start> {
                   child: Padding(
                     padding: EdgeInsets.only(left: 10, right: 10),
                     child: Text(
-                      'LOGIN',
-                      style: TextStyle(
-                        fontSize: 20,
-                        fontWeight: FontWeight.bold,
-                      ),
-                    ),
-                  ),
-                  style: ElevatedButton.styleFrom(
-                    primary: Colors.red,
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(20.0),
-                    ),
-                  ),
-                ),
-                SizedBox(width: 30),
-                ElevatedButton(
-                  onPressed: navigateToRegister,
-                  child: Padding(
-                    padding: EdgeInsets.only(left: 10, right: 10),
-                    child: Text(
-                      'REGISTER',
+                      'ENTER',
                       style: TextStyle(
                         fontSize: 20,
                         fontWeight: FontWeight.bold,

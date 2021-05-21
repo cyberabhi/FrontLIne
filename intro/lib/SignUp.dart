@@ -16,7 +16,7 @@ class _SignUpState extends State<SignUp> {
   checkAuthentication() async {
     _auth.authStateChanges().listen((user) async {
       if (user != null) {
-        Navigator.push(context,
+        Navigator.pushReplacement(context,
             MaterialPageRoute(builder: (context) => BottomNavigation()));
       }
     });

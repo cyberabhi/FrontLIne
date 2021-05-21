@@ -20,14 +20,14 @@ class _BottomNavigationState extends State<BottomNavigation> {
         items: [
           BottomNavigationBarItem(
             icon: Icon(
-              Icons.home,
+              Icons.home_outlined,
               size: 30,
             ),
             label: 'HOME',
           ),
           BottomNavigationBarItem(
             icon: Icon(
-              Icons.speaker_notes,
+              Icons.speaker_notes_outlined,
               size: 30,
             ),
             label: 'NOTICE BOARD',

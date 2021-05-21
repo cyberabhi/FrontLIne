@@ -18,7 +18,7 @@ class _LoginState extends State<Login> {
   checkAuthentification() async {
     _auth.authStateChanges().listen((user) {
       if (user != null) {
-        Navigator.push(context,
+        Navigator.pushReplacement(context,
             MaterialPageRoute(builder: (context) => BottomNavigation()));
       }
     });
@@ -135,7 +135,7 @@ class _LoginState extends State<Login> {
                   ),
                 ),
               ),
-              SizedBox(height: 10),
+              SizedBox(height: 20),
               GestureDetector(
                 child: Text('Create an Account?'),
                 onTap: navigateToSignUp,
