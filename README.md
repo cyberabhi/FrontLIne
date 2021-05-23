@@ -2,7 +2,7 @@
 Fighting-COVID-19     
 ## Title: "FrontLine"
 (Human Resource Planning of fronline Health Care Workers)
-**=========================================================================**
+
 ## Description: 
     We chose the problem statement Human Resource Planning of Frontline HealthCare Workers. We made an attempt to reduce the communication gap between employee and employer by making an App as a Bridge. Our app provides separate email and password authentication for employee and employer. 
     Employees can mark their attendance when they reach the workplace premises by obeying social distancing, they can request a demand or report to their employer based on their inconvenience.
@@ -10,13 +10,13 @@ Fighting-COVID-19
     Additional Features: 
         1. Real Time Inspirational Quotes using API.  
         2. Real Time COVID data of the country using API.
-**=========================================================================**
+
 ## Software Requirements:
     - Programming Language: Dart 
     - Framework Used: Flutter 
     - Database and Authentication: Google Firebase
     - IDE Used: VS Code by Microsoft, Android Studio for Emulator 
-**=========================================================================**
+
 ## Process Flow: 
     Complete flow of application can be determined by following 4 parts:
     1. Login:
@@ -32,7 +32,7 @@ Fighting-COVID-19
         - Admin can monitor and manage their employees by checking their attendance on Dashboard.
         - Admin can view their employees requests or reports and can send the message to all of them through Noticeboard. 
         - Admin can also view their employees profile to manage them according to the requirement.
-**=========================================================================**
+
         
 
 
