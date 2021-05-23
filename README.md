@@ -4,7 +4,9 @@ Fighting-COVID-19
 (Human Resource Planning of fronline Health Care Workers)
 
 ## Description: 
-    We chose the problem statement Human Resource Planning of Frontline HealthCare Workers. We made an attempt to reduce the communication gap between employee and employer by making an App as a Bridge. Our app provides separate email and password authentication for employee and employer. 
+    We chose the problem statement Human Resource Planning of Frontline HealthCare Workers. 
+    We made an attempt to reduce the communication gap between employee and employer by making an App as a Bridge. 
+    Our app provides separate email and password authentication for employee and employer. 
     Employees can mark their attendance when they reach the workplace premises by obeying social distancing, they can request a demand or report to their employer based on their inconvenience.
     Employer can monitor the live attendance of their employees and they can  have a look over their profile. 
     Additional Features: 
@@ -26,7 +28,7 @@ Fighting-COVID-19
     3. Employee's Dashboard:
         - Employees are motivated through motivational quotes at every refresh of the dashboard and Live updates of COVID data through official Govt website.
         - Employees have to mark their attendance daily as soon as they reach their workplace for easy managing their workload.
-        - Employees can update their profile(Full Name,Designation and Experience) and can post request or report based on their inconvenience experienced to the admin.
+        - Employees can update their profile(Full Name,Designation and Experience) and can post request or report based on their        inconvenience experienced to the admin.
         They can also view the Noticeboard if any message is conveyed by Admin.
     4. Admin's Dashboard:
         - Admin can monitor and manage their employees by checking their attendance on Dashboard.
