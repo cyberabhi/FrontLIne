@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "570139850236",
-    "project_id": "flutter-fightcovid",
-    "storage_bucket": "flutter-fightcovid.appspot.com"
+    "project_number": "312902323832",
+    "project_id": "linuxwebapp-8067b",
+    "storage_bucket": "linuxwebapp-8067b.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:570139850236:android:a02c3ff875c173edf6ee79",
+        "mobilesdk_app_id": "1:312902323832:android:b99053bc7d43af6d5ca78d",
         "android_client_info": {
-          "package_name": "com.example.intro"
+          "package_name": "com.vs_code.web_app"
         }
       },
       "oauth_client": [
         {
-          "client_id": "570139850236-6dui1n4rb4uj2cm9pmt643jodu673q3d.apps.googleusercontent.com",
+          "client_id": "312902323832-mks610li5g38gdqrbpmvtoe1amcudbvo.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCh1SrysGBdPKJ3D0RQmgr5GzJ6E2ENpMU"
+          "current_key": "AIzaSyAlKHH7gqa5izdqIcq3YwgU6UDD_np6stw"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "570139850236-6dui1n4rb4uj2cm9pmt643jodu673q3d.apps.googleusercontent.com",
+              "client_id": "312902323832-mks610li5g38gdqrbpmvtoe1amcudbvo.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

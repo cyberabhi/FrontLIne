@@ -6,7 +6,7 @@ class PositiveQuotes {
 
   Future<Map> getQuotes() async {
     var url = Uri.parse(
-        'https://thingproxy.freeboard.io/fetch/http://zenquotes.io/api/random');
+        'https://zenquotes.io/api/random');
     var response = await get(url);
     //print(response);
     List data = jsonDecode(response.body);

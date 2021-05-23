@@ -8,7 +8,7 @@ class CovidData {
 
   Future<Map> getCovidData() async {
     var url = Uri.parse(
-        "https://thingproxy.freeboard.io/fetch/https://api.rootnet.in/covid19-in/stats/latest");
+        "https://api.rootnet.in/covid19-in/stats/latest");
     var response = await get(url);
     Map data = jsonDecode(response.body);
     Map cData = data["data"]["summary"];
