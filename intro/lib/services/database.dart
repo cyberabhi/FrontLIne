@@ -93,6 +93,7 @@ class DatabaseService {
     QuerySnapshot x = await FirebaseFirestore.instance
         .collection('attendance')
         .where('date', isEqualTo: date)
+        .where('isPresent', isEqualTo: true)
         .get();
     //print(x.docs.length);
     final allTodayData = x.docs.map((doc) => doc.data()).toList();
