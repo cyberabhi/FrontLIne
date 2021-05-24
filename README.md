@@ -37,6 +37,10 @@ Fighting-COVID-19
         - Admin can view their employees requests or reports and can send the message to all of them through Noticeboard. 
         - Admin can also view their employees profile to manage them according to the requirement.
 
+## Data Flow Diagram:
+
+
+
         
 
 
