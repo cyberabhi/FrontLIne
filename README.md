@@ -1,6 +1,5 @@
 ![Shared](https://user-images.githubusercontent.com/45639831/119272301-e57cbf80-bc22-11eb-8170-6afee27d5584.jpg)
 
-# FrontLIne
 Fighting-COVID-19     
 ## Title: "FrontLine"
 (Human Resource Planning of fronline Health Care Workers)
@@ -38,6 +37,9 @@ Fighting-COVID-19
         - Admin can also view their employees profile to manage them according to the requirement.
 
 ## Data Flow Diagram:
+
+![FrontLine@2x](https://user-images.githubusercontent.com/45639831/119313803-97eb6b80-bc91-11eb-8721-dd407a5ff75c.png)
+
 
 
 
