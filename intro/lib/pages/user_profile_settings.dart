@@ -29,87 +29,89 @@ class _UserProfileSettingsState extends State<UserProfileSettings> {
         centerTitle: true,
         elevation: 0.0,
       ),
-      body: Center(
-        child: Container(
-          padding: EdgeInsets.symmetric(horizontal: 25.0),
-          child: Form(
-            //key: _formKey,
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                SizedBox(height: 15.0),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    CircleAvatar(
-                      backgroundColor: Colors.brown.shade800,
-                      child: const Text('C'),
-                      radius: 40.0,
+      body: SingleChildScrollView(
+        child: Center(
+          child: Container(
+            padding: EdgeInsets.symmetric(horizontal: 25.0),
+            child: Form(
+              //key: _formKey,
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  SizedBox(height: 15.0),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      CircleAvatar(
+                        backgroundColor: Colors.brown.shade800,
+                        child: const Text('C'),
+                        radius: 40.0,
+                      ),
+                    ],
+                  ),
+                  Container(
+                    child: TextFormField(
+                      decoration: InputDecoration(labelText: 'Full Name'),
+                      initialValue: _initfName,
+                      validator: (value) =>
+                          value.isEmpty ? 'Enter proper Full Name' : null,
+                      onChanged: (value) {
+                        setState(() {
+                          _initfName = value;
+                          newfName = value;
+                        });
+                      },
                     ),
-                  ],
-                ),
-                Container(
-                  child: TextFormField(
-                    decoration: InputDecoration(labelText: 'Full Name'),
-                    initialValue: _initfName,
-                    validator: (value) =>
-                        value.isEmpty ? 'Enter proper Full Name' : null,
-                    onChanged: (value) {
-                      setState(() {
-                        _initfName = value;
-                        newfName = value;
-                      });
-                    },
                   ),
-                ),
-                SizedBox(height: 10.0),
-                Container(
-                  child: TextFormField(
-                    decoration: InputDecoration(labelText: 'Designation'),
-                    initialValue: _initDesignation,
-                    validator: (value) =>
-                        value.isEmpty ? 'Enter proper Designation' : null,
-                    onChanged: (value) {
-                      setState(() {
-                        _initDesignation = value;
-                        newDName = value;
-                      });
-                    },
+                  SizedBox(height: 10.0),
+                  Container(
+                    child: TextFormField(
+                      decoration: InputDecoration(labelText: 'Designation'),
+                      initialValue: _initDesignation,
+                      validator: (value) =>
+                          value.isEmpty ? 'Enter proper Designation' : null,
+                      onChanged: (value) {
+                        setState(() {
+                          _initDesignation = value;
+                          newDName = value;
+                        });
+                      },
+                    ),
                   ),
-                ),
-                SizedBox(height: 10.0),
-                Container(
-                  child: TextFormField(
-                    decoration: InputDecoration(labelText: 'Experience'),
-                    initialValue: _initExperience,
-                    validator: (value) =>
-                        value.isEmpty ? 'Enter proper Experience' : null,
-                    onChanged: (value) {
-                      setState(() {
-                        _initExperience = value;
-                        newEName = value;
-                      });
-                    },
+                  SizedBox(height: 10.0),
+                  Container(
+                    child: TextFormField(
+                      decoration: InputDecoration(labelText: 'Experience'),
+                      initialValue: _initExperience,
+                      validator: (value) =>
+                          value.isEmpty ? 'Enter proper Experience' : null,
+                      onChanged: (value) {
+                        setState(() {
+                          _initExperience = value;
+                          newEName = value;
+                        });
+                      },
+                    ),
                   ),
-                ),
-                SizedBox(height: 10.0),
-                ElevatedButton.icon(
-                  icon: Icon(Icons.upload_rounded),
-                  label: Text('UPDATE PROFILE'),
-                  onPressed: () async {
-                    //print(username);
-                    await DatabaseService(uid: username)
-                        .updateUserProfileCollectionData(
-                            username, newfName, newDName, newEName);
+                  SizedBox(height: 10.0),
+                  ElevatedButton.icon(
+                    icon: Icon(Icons.upload_rounded),
+                    label: Text('UPDATE PROFILE'),
+                    onPressed: () async {
+                      //print(username);
+                      await DatabaseService(uid: username)
+                          .updateUserProfileCollectionData(
+                              username, newfName, newDName, newEName);
 
-                    //setState(() {
-                    //_initfName = _initfName;
-                    //_initExperience = _initExperience;
-                    //_initDesignation = _initDesignation;
-                    // });
-                  },
-                ),
-              ],
+                      //setState(() {
+                      //_initfName = _initfName;
+                      //_initExperience = _initExperience;
+                      //_initDesignation = _initDesignation;
+                      // });
+                    },
+                  ),
+                ],
+              ),
             ),
           ),
         ),
