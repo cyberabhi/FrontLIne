@@ -30,7 +30,7 @@ Fighting-COVID-19
     3. Employee's Dashboard:
         - Employees are motivated through motivational quotes at every refresh of the dashboard and Live updates of COVID data through official Govt website.
         - Employees have to mark their attendance daily as soon as they reach their workplace for easy managing their workload.
-        - Employees can update their profile(Full Name,Designation and Experience) and can post request or report based on their        inconvenience experienced to the admin.
+        - Employees can update their profile(Full Name,Designation and Experience) and can post request or report based on their inconvenience experienced to the admin.
         They can also view the Noticeboard if any message is conveyed by Admin.
     4. Admin's Dashboard:
         - Admin can monitor and manage their employees by checking their attendance on Dashboard.
